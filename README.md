@@ -188,7 +188,7 @@ The sum of the latter three terms gives the total solvation energy.
 
 The GB radii can be visualized in color using vmd (gbr.vmd contains a script for vmd) 
 
-> vmd -e gbr.vmd 
+\> vmd -e gbr.vmd 
 
 This will create a picture (gbr.tga) with the radius coded in color red (1.00 A) to blue (10.0 A).
 To keep the program interactive just remove the last command 'quit' from gbr.vmd.
