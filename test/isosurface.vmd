@@ -1,0 +1,59 @@
+#!/usr/local/bin/vmd
+# VMD script written by save_state $Revision: 1.47 $
+# VMD version: 1.9.3
+color Display {Background} white
+display axes off
+display projection   Orthographic
+display depthcue   off
+axes location off
+mol new protein.pqr type pdb first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
+mol addfile protein_out.dx type dx first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
+mol delrep 0 top
+mol representation Lines
+mol color Name
+mol selection {all}
+mol material Opaque
+mol addrep top
+mol selupdate 0 top 0
+mol colupdate 0 top 0
+mol scaleminmax top 0 -1.000000 1.000000
+mol smoothrep top 0 0
+mol drawframes top 0 {now}
+mol representation Surf 1.400000 0.000000
+mol color ColorID 8
+mol selection {all}
+mol material Transparent
+mol addrep top
+mol selupdate 1 top 0
+mol colupdate 1 top 0
+mol scaleminmax top 1 0.000000 0.000000
+mol smoothrep top 1 0
+mol drawframes top 1 {now}
+mol representation Isosurface 4.000000 0 2 0 1 1
+mol color Volume 0
+mol selection {all}
+mol material Opaque
+mol addrep top
+mol selupdate 2 top 0
+mol colupdate 2 top 0
+mol scaleminmax top 2 -2.000000 2.000000
+mol smoothrep top 2 0
+mol drawframes top 2 {now}
+mol rename top protein.pqr
+mol new dna.pqr type pdb first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
+mol delrep 0 top
+mol representation Licorice 0.300000 12.000000 12.000000
+mol color Name
+mol selection {all}
+mol material Opaque
+mol addrep top
+mol selupdate 0 top 0
+mol colupdate 0 top 0
+mol scaleminmax top 0 0.000000 0.000000
+mol smoothrep top 0 0
+mol drawframes top 0 {now}
+mol rename top dna.pqr
+rotate y by 180
+scale by 1.5
+render snapshot isosurface.tga
+quit
