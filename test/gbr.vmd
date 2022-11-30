@@ -1,0 +1,21 @@
+# VMD script written by save_state $Revision: 1.47 $
+# VMD version: 1.9.3
+color Display {Background} white
+display axes off
+display projection   Orthographic
+display depthcue   off
+axes location off
+mol new protein_out.pqg type pdb first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
+mol delrep 0 top
+mol representation Licorice 0.300000 12.000000 12.000000
+mol color Beta
+mol selection {all}
+mol material Opaque
+mol addrep top
+mol selupdate 0 top 0
+mol colupdate 0 top 0
+mol scaleminmax top 0 1.00 10.000
+mol smoothrep top 0 0
+mol drawframes top 0 {now}
+render snapshot gbr.tga
+quit
