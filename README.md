@@ -4,16 +4,25 @@ Bluues2.0 performs most common analyses of the electrostatic properties of
 molecules. 
 
 The output of the program entails, depending on user’s requirement:
+
 1) the generalized Born radius of each atom;
+
 2) the electrostatic potential at the surface of the molecule mapped to solvent accessible atoms;
+
 3) the solvent accessible surface in a PDB formatted file;
+
 4) the electrostatic potential in a volume surrounding the molecule;
+
 5) the electrostatic free energy and different contributions to it;
+
 6) the pH-dependent properties (total charge and pH-dependent free energy of folding in the pH range -2 to 18;
+
 7) the pKa of all ionizable groups;
 
 The input file is a pqr file (or a PDB file with charges and radii in the two separated fields after coordinates), which can be generated in different ways:
+
 for proteins and nucleic acids the program pdb2pqr by Nathan A Baker and collaborators (https://www.poissonboltzmann.org/) ; for small molecules openbabel can convert mol2 or sdf files in pqr; for general molecules softwares like Chimera or VMD can read structure and topology files and generate pqr files.
+
 
 Bluues2 first generates the solvent accessible surface and then computes generalized Born radii, via a surface integral and then it uses generalized Born radii (using a finite radius test particle) to perform electrostic analyses. 
 The generalized Born radii corresponding to the solvent accessible surface are extrapolated to those corresponding to the solvent excluded surface.
@@ -34,10 +43,10 @@ E-mail federico.fogolari@uniud.it
 REFERENCE:
 
 Please cite:  
-?. ???,  ?. ???,  ?. ???,  ?. ??? and  ?. ???,   
+M.A. Soler, O. Ozkilinc, Y. Hunashal, P. Giannozzi, G. Esposito, F. Fogolari  
 Molecular electrostatics with the Generalized Born model.
 A tutorial through examples with Bluues 2.0.
-Molecules, ??, ??, 2022 
+Molecules, submitted, 2022 
 
 The methodology has been described in:
 
@@ -95,33 +104,61 @@ and a list of the available options explained below:
 
 Usage:
 bluues2 filename.pqr basename [Options]
+
 Options:
+
 -v (verbose mode)
+
 -m filename.vert (msms .vert file with 3 lines header)
+
 -pa x (msms area per point on SES, 0.1 default)
+
 -p x (use a probe radius for surfacing of x, 1.5 A default)
+
 -tcr x (use a test charge radius of x, 0.7 A default)
+
 -mr x (minimum radius for surfacing of x, 1.0 A default)
+
 -s x (use a salt radius of x, 2.0 default)
+
 -pd x (inner dielectric constant, 4.0 default)
+
 -sd x (outer dielectric constant, 78.54 default)
+
 -kp x (factor for Still formula 4 default)
+
 -i x (ionic strength (M), 0.15 M default)
+
 -t x (temperature in K, 298.15 default)
+
 -c x (cutoff for GBR6 calculation, 20.0 A default)
+
 -c2 x (cutoff short for GBR6 calculation, 8.0 A default)
+
 -g x (surface tension coefficient, 0.12 J/(A^2 mol) default)
+
 -pka (compute pkas)
+
 -pkadef filename (file containing pKa definitions)
+
 -pkd x (inner dielectric constant for pka calculations, 20.0 default)
+
 -pss x (number of MC steps per site in pka calculation, 1000)
+
 -dx (output potential grid in dx format)
+
 -nx x (number of grid points in x, 97 default)
+
 -ny x (number of grid points in y, 97 default)
+
 -nz x (number of grid points in z, 97 default)
+
 -mesh x (grid mesh size, 1.0 default)
+
 -srf (output surface points, potential, atom n. and normal vectors)
+
 -srfpot (output average atomic surface potential)
+
 
 USAGE EXAMPLES (input files and commands in the test directory):
 
