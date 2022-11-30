@@ -2193,7 +2193,7 @@ void check_cmd_line(int argc, char *argv[], struct Flag_par *flag_par)
 	if(argc < 3) 
 	{
 	printf("Usage:\n"); 
-	printf("./bluues2 filename.pqr basename [Options]\n"); 
+	printf("bluues2 filename.pqr basename [Options]\n"); 
 	printf("Options:\n"); 
 	printf("-v (verbose mode)\n"); 
 	printf("-m filename.vert (msms .vert file with 3 lines header)\n"); 
