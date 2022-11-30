@@ -65,30 +65,30 @@ COMPILATION:
 
 The program is compiled with: 
 
-> make bluues2
+\>make bluues2
 
 (Alternatively:
-> cc bluues2.c -o bluues2 -lm -g -O3 
+\> cc bluues2.c -o bluues2 -lm -g -O3 
 )
 
 INSTALLATION:
 
-> sudo make install
+\> sudo make install
 
 (Alternatively:
 Just copy bluues2 in the local programs directory /usr/local/bin which should
 have rwxr-xr-x permissions, otherwise just change them with
 
-> sudo chmod 755 /usr/local/bin
-> sudo cp bluues2 /usr/local/bin/bluues2
+\> sudo chmod 755 /usr/local/bin
+\> sudo cp bluues2 /usr/local/bin/bluues2
 
 Just to be sure it can be run by anyone
 
-> sudo chmod 755 /usr/local/bin/bluues2
+\> sudo chmod 755 /usr/local/bin/bluues2
 
 Check that /usr/local/bin is in the path by
 
-> echo $PATH
+\> echo $PATH
 
 /usr/local/bin/ should be listed among others.
 )
@@ -97,12 +97,13 @@ RUNNING BLUUES2
 
 After bluues is installed
 
-> bluues2 
+\> bluues2 
 
 with no argument bluues2 provides a summary on how to run the program
 and a list of the available options explained below:
 
 Usage:
+
 bluues2 filename.pqr basename [Options]
 
 Options:
@@ -168,7 +169,7 @@ Provided that a pqr file is available (e.g. protein.pqr)
 the program is run in its basic form by specifying the input file
 and the basename for output files:
 
-> bluues2 protein.pqr protein_out
+\> bluues2 protein.pqr protein_out
 
 The command produces three output files:
 protein_out.gbr -- the file containing the generalized Born (GB) 
@@ -196,7 +197,7 @@ To keep the program interactive just remove the last command 'quit' from gbr.vmd
 2) COMPUTING THE POTENTIAL AT THE SURFACE
 
 The potential at the surface of the protein is computed with the option -srfpot:
-> bluues2 protein.pqr protein_out -srfpot
+\> bluues2 protein.pqr protein_out -srfpot
 
 The output file protein_out.srfatpot is a pdb file which contains 
 the surface potential in the temperature factor field. 
@@ -208,7 +209,7 @@ We have chosen as an example the Antemnapaedia protein bound to DNA.
 The protein has different electrostatic properties on the face binding
 DNA and on the opposite face.
 This is visualized by 
-> vmd -e srfpot.vmd 
+\> vmd -e srfpot.vmd 
 which will create two pictures of the two faces mentioned above (srfpot_1.tga and srfpot_2.tga) with the potential coded in color red (-8.00 kJ/(mol * q)) 
 to blue (8.00 kJ/(mol * q)).
 The DNA which has been prepared in a different file, is read and shown in 
@@ -219,7 +220,7 @@ To keep the program interactive just remove the last command 'quit' from srfpot.
 
 The potential around a molecule is computed by the option -dx:
 
-> bluues2 protein.pqr protein_out -dx
+\> bluues2 protein.pqr protein_out -dx
 
 This will compute a 97x97x97 grid with mesh 1 A around the molecule and 
 map the potential using the test charge as said above. 
@@ -230,21 +231,21 @@ by the options -nx, -ny, -nz respectively, each followed by the number of points
 The map can be read and visualized. We load first the protein and display it showing its surface. Then we load the DNA and show it in licorice representation.
 Finally we load the computed electrostatic map, and display a slice of it around the molecule. The command is:
 
-> vmd -e heatmap.vmd
+\> vmd -e heatmap.vmd
 
 The position of the slice (axis and height) may by chosen by the user. Note that the map is computed in the absence of DNA which is shown to rationalize electrostatic properties.
 
 Another possible visualization shows the isosurface curves around the molecule.
 This is done with the command:
 
-> vmd -e isosurface.vmd
+\> vmd -e isosurface.vmd
 
 4a) COMPUTING PKA SHIFTS FOR PROTEINS 
 
 Bluues2 has built-in values for protein pKa.
 Several quantities related with pKa are computed using the flag -pka
 
-> bluues2 protein.pqr protein_out -pka
+\> bluues2 protein.pqr protein_out -pka
 
 The output files are the following:
 
@@ -283,7 +284,7 @@ pkadefs.txt contains the following information:
 
 As an example we compute the shift in pKa for the phosphates of DNA.
 
-> bluues2 dna.pqr dna_out -pka -pkadef pkadefs.txt 
+\> bluues2 dna.pqr dna_out -pka -pkadef pkadefs.txt 
 
 The computed shifts are positive and in the range of 0.6 to 1.5 pKa units.
 The contribution of self solvation are small, being the phosphate exposed to solvent (the GB radius is small). Both background and site-site interactions 
