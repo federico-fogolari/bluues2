@@ -171,10 +171,13 @@ and the basename for output files:
 \> bluues2 protein.pqr protein_out
 
 The command produces three output files:
+
 protein_out.gbr -- the file containing the generalized Born (GB) 
                    radii for all atoms
+
 protein_out.pqg -- a pdb file with occupancy and temperature factors fields
                    substituted by the charge and the computed GB radius
+
 protein_out.solv_nrg -- a file containing the computed energy and the solvation energies of each atom (including self and Coulombic solvation energy)
 
 The free energy components are: 
