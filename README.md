@@ -36,7 +36,6 @@ Dipartimento di Scienze Matematiche, Informatiche e Fisiche
 Universita' di Udine  
 Via delle Scienze 206  
 33100 Udine - Italy  
-Tel ++39 0432 494320    
 E-mail federico.fogolari@uniud.it  
 
 
