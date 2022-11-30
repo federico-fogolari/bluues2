@@ -255,9 +255,13 @@ protein_out.pka - for each titratable site it reports:
 - the computed pKa
 - the unperturbed (reference) pKa in the isolated residue
 - the shifts due to the difference in 
+  
   -- self solvation energy
+  
   -- interaction with partial charges in the molecule
+  
   -- interaction with other titratable sites net charges
+
 - the generalized Born radius of the titratable atom.
 
 protein_out.ddg - for each pH value it reports
@@ -281,8 +285,6 @@ pkadefs.txt contains the following information:
 - a flag stating whether in the input pqr file the residue is ionized (1)
   or not (0)
 - the charge of the residue when ionized
-- the charge that must be added to neutralize the residue as provided
-  in the input.pqr file (the last field is minus the product of the previous two  fields...)
 
 As an example we compute the shift in pKa for the phosphates of DNA.
 
