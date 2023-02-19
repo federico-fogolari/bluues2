@@ -45,7 +45,7 @@ Please cite:
 M.A. Soler, O. Ozkilinc, Y. Hunashal, P. Giannozzi, G. Esposito, F. Fogolari  
 Molecular electrostatics with the Generalized Born model.
 A tutorial through examples with Bluues 2.0.
-Molecules, submitted, 2022 
+Computer Physics Communication, submitted, 2022 
 
 The methodology has been described in:
 
@@ -111,7 +111,7 @@ Options:
 
 -m filename.vert (msms .vert file with 3 lines header)
 
--pa x (msms area per point on SES, 0.1 default)
+-pa x (area per point on SES, 0.1 default)
 
 -p x (use a probe radius for surfacing of x, 1.5 A default)
 
