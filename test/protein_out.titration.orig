@@ -1,4 +1,8 @@
 ATOM  RES RESN CH.     pH  ionization
+  CZ  ARG     5 A   -4.000    1.000
+  CZ  ARG     5 A   -3.500    1.000
+  CZ  ARG     5 A   -3.000    1.000
+  CZ  ARG     5 A   -2.500    1.000
   CZ  ARG     5 A   -2.000    1.000
   CZ  ARG     5 A   -1.500    1.000
   CZ  ARG     5 A   -1.000    1.000
@@ -23,23 +27,27 @@ ATOM  RES RESN CH.     pH  ionization
   CZ  ARG     5 A    8.500    1.000
   CZ  ARG     5 A    9.000    1.000
   CZ  ARG     5 A    9.500    1.000
-  CZ  ARG     5 A   10.000    0.997
-  CZ  ARG     5 A   10.500    1.000
-  CZ  ARG     5 A   11.000    0.999
-  CZ  ARG     5 A   11.500    0.999
-  CZ  ARG     5 A   12.000    0.990
-  CZ  ARG     5 A   12.500    0.966
-  CZ  ARG     5 A   13.000    0.957
-  CZ  ARG     5 A   13.500    0.820
-  CZ  ARG     5 A   14.000    0.604
-  CZ  ARG     5 A   14.500    0.306
-  CZ  ARG     5 A   15.000    0.137
-  CZ  ARG     5 A   15.500    0.054
-  CZ  ARG     5 A   16.000    0.011
-  CZ  ARG     5 A   16.500    0.008
-  CZ  ARG     5 A   17.000    0.000
-  CZ  ARG     5 A   17.500    0.001
+  CZ  ARG     5 A   10.000    1.000
+  CZ  ARG     5 A   10.500    0.994
+  CZ  ARG     5 A   11.000    0.998
+  CZ  ARG     5 A   11.500    0.998
+  CZ  ARG     5 A   12.000    0.972
+  CZ  ARG     5 A   12.500    0.942
+  CZ  ARG     5 A   13.000    0.858
+  CZ  ARG     5 A   13.500    0.723
+  CZ  ARG     5 A   14.000    0.520
+  CZ  ARG     5 A   14.500    0.270
+  CZ  ARG     5 A   15.000    0.131
+  CZ  ARG     5 A   15.500    0.039
+  CZ  ARG     5 A   16.000    0.019
+  CZ  ARG     5 A   16.500    0.005
+  CZ  ARG     5 A   17.000    0.002
+  CZ  ARG     5 A   17.500    0.000
   CZ  ARG     5 A   18.000    0.000
+   N  ARG     5 A   -4.000    1.000
+   N  ARG     5 A   -3.500    1.000
+   N  ARG     5 A   -3.000    1.000
+   N  ARG     5 A   -2.500    1.000
    N  ARG     5 A   -2.000    1.000
    N  ARG     5 A   -1.500    1.000
    N  ARG     5 A   -1.000    1.000
@@ -53,34 +61,38 @@ ATOM  RES RESN CH.     pH  ionization
    N  ARG     5 A    3.000    1.000
    N  ARG     5 A    3.500    1.000
    N  ARG     5 A    4.000    1.000
-   N  ARG     5 A    4.500    0.994
-   N  ARG     5 A    5.000    0.998
-   N  ARG     5 A    5.500    0.982
-   N  ARG     5 A    6.000    0.928
-   N  ARG     5 A    6.500    0.802
-   N  ARG     5 A    7.000    0.584
-   N  ARG     5 A    7.500    0.269
-   N  ARG     5 A    8.000    0.118
-   N  ARG     5 A    8.500    0.039
-   N  ARG     5 A    9.000    0.015
-   N  ARG     5 A    9.500    0.008
-   N  ARG     5 A   10.000    0.002
-   N  ARG     5 A   10.500    0.002
-   N  ARG     5 A   11.000    0.000
-   N  ARG     5 A   11.500    0.000
-   N  ARG     5 A   12.000    0.000
-   N  ARG     5 A   12.500    0.000
-   N  ARG     5 A   13.000    0.000
-   N  ARG     5 A   13.500    0.000
-   N  ARG     5 A   14.000    0.000
-   N  ARG     5 A   14.500    0.000
-   N  ARG     5 A   15.000    0.000
-   N  ARG     5 A   15.500    0.000
-   N  ARG     5 A   16.000    0.000
-   N  ARG     5 A   16.500    0.000
-   N  ARG     5 A   17.000    0.000
+   N  ARG     5 A    4.500    1.000
+   N  ARG     5 A    5.000    1.000
+   N  ARG     5 A    5.500    1.000
+   N  ARG     5 A    6.000    1.000
+   N  ARG     5 A    6.500    1.000
+   N  ARG     5 A    7.000    1.000
+   N  ARG     5 A    7.500    1.000
+   N  ARG     5 A    8.000    1.000
+   N  ARG     5 A    8.500    1.000
+   N  ARG     5 A    9.000    1.000
+   N  ARG     5 A    9.500    1.000
+   N  ARG     5 A   10.000    1.000
+   N  ARG     5 A   10.500    0.999
+   N  ARG     5 A   11.000    0.998
+   N  ARG     5 A   11.500    0.992
+   N  ARG     5 A   12.000    0.974
+   N  ARG     5 A   12.500    0.942
+   N  ARG     5 A   13.000    0.853
+   N  ARG     5 A   13.500    0.648
+   N  ARG     5 A   14.000    0.433
+   N  ARG     5 A   14.500    0.237
+   N  ARG     5 A   15.000    0.116
+   N  ARG     5 A   15.500    0.033
+   N  ARG     5 A   16.000    0.013
+   N  ARG     5 A   16.500    0.007
+   N  ARG     5 A   17.000    0.007
    N  ARG     5 A   17.500    0.000
    N  ARG     5 A   18.000    0.000
+  OH  TYR     8 A   -4.000    0.000
+  OH  TYR     8 A   -3.500    0.000
+  OH  TYR     8 A   -3.000    0.000
+  OH  TYR     8 A   -2.500    0.000
   OH  TYR     8 A   -2.000    0.000
   OH  TYR     8 A   -1.500    0.000
   OH  TYR     8 A   -1.000    0.000
@@ -98,30 +110,34 @@ ATOM  RES RESN CH.     pH  ionization
   OH  TYR     8 A    5.000    0.000
   OH  TYR     8 A    5.500    0.000
   OH  TYR     8 A    6.000    0.000
-  OH  TYR     8 A    6.500    0.000
-  OH  TYR     8 A    7.000    0.001
-  OH  TYR     8 A    7.500    0.001
-  OH  TYR     8 A    8.000    0.007
-  OH  TYR     8 A    8.500    0.055
-  OH  TYR     8 A    9.000    0.123
-  OH  TYR     8 A    9.500    0.308
-  OH  TYR     8 A   10.000    0.567
-  OH  TYR     8 A   10.500    0.806
-  OH  TYR     8 A   11.000    0.912
-  OH  TYR     8 A   11.500    0.972
-  OH  TYR     8 A   12.000    0.995
-  OH  TYR     8 A   12.500    0.998
-  OH  TYR     8 A   13.000    0.998
+  OH  TYR     8 A    6.500    0.001
+  OH  TYR     8 A    7.000    0.002
+  OH  TYR     8 A    7.500    0.003
+  OH  TYR     8 A    8.000    0.013
+  OH  TYR     8 A    8.500    0.031
+  OH  TYR     8 A    9.000    0.074
+  OH  TYR     8 A    9.500    0.205
+  OH  TYR     8 A   10.000    0.426
+  OH  TYR     8 A   10.500    0.670
+  OH  TYR     8 A   11.000    0.893
+  OH  TYR     8 A   11.500    0.955
+  OH  TYR     8 A   12.000    0.976
+  OH  TYR     8 A   12.500    0.994
+  OH  TYR     8 A   13.000    0.994
   OH  TYR     8 A   13.500    1.000
-  OH  TYR     8 A   14.000    0.998
+  OH  TYR     8 A   14.000    1.000
   OH  TYR     8 A   14.500    1.000
   OH  TYR     8 A   15.000    1.000
-  OH  TYR     8 A   15.500    0.998
+  OH  TYR     8 A   15.500    1.000
   OH  TYR     8 A   16.000    1.000
   OH  TYR     8 A   16.500    1.000
   OH  TYR     8 A   17.000    1.000
   OH  TYR     8 A   17.500    1.000
   OH  TYR     8 A   18.000    1.000
+  CZ  ARG    10 A   -4.000    1.000
+  CZ  ARG    10 A   -3.500    1.000
+  CZ  ARG    10 A   -3.000    1.000
+  CZ  ARG    10 A   -2.500    1.000
   CZ  ARG    10 A   -2.000    1.000
   CZ  ARG    10 A   -1.500    1.000
   CZ  ARG    10 A   -1.000    1.000
@@ -148,21 +164,25 @@ ATOM  RES RESN CH.     pH  ionization
   CZ  ARG    10 A    9.500    1.000
   CZ  ARG    10 A   10.000    1.000
   CZ  ARG    10 A   10.500    1.000
-  CZ  ARG    10 A   11.000    0.999
+  CZ  ARG    10 A   11.000    1.000
   CZ  ARG    10 A   11.500    1.000
   CZ  ARG    10 A   12.000    0.999
-  CZ  ARG    10 A   12.500    0.991
-  CZ  ARG    10 A   13.000    0.958
-  CZ  ARG    10 A   13.500    0.890
-  CZ  ARG    10 A   14.000    0.716
-  CZ  ARG    10 A   14.500    0.446
-  CZ  ARG    10 A   15.000    0.248
-  CZ  ARG    10 A   15.500    0.066
-  CZ  ARG    10 A   16.000    0.027
-  CZ  ARG    10 A   16.500    0.010
-  CZ  ARG    10 A   17.000    0.002
+  CZ  ARG    10 A   12.500    0.996
+  CZ  ARG    10 A   13.000    0.972
+  CZ  ARG    10 A   13.500    0.921
+  CZ  ARG    10 A   14.000    0.733
+  CZ  ARG    10 A   14.500    0.475
+  CZ  ARG    10 A   15.000    0.212
+  CZ  ARG    10 A   15.500    0.101
+  CZ  ARG    10 A   16.000    0.015
+  CZ  ARG    10 A   16.500    0.004
+  CZ  ARG    10 A   17.000    0.003
   CZ  ARG    10 A   17.500    0.002
   CZ  ARG    10 A   18.000    0.000
+  OH  TYR    11 A   -4.000    0.000
+  OH  TYR    11 A   -3.500    0.000
+  OH  TYR    11 A   -3.000    0.000
+  OH  TYR    11 A   -2.500    0.000
   OH  TYR    11 A   -2.000    0.000
   OH  TYR    11 A   -1.500    0.000
   OH  TYR    11 A   -1.000    0.000
@@ -182,20 +202,20 @@ ATOM  RES RESN CH.     pH  ionization
   OH  TYR    11 A    6.000    0.000
   OH  TYR    11 A    6.500    0.000
   OH  TYR    11 A    7.000    0.000
-  OH  TYR    11 A    7.500    0.002
-  OH  TYR    11 A    8.000    0.001
-  OH  TYR    11 A    8.500    0.001
+  OH  TYR    11 A    7.500    0.000
+  OH  TYR    11 A    8.000    0.000
+  OH  TYR    11 A    8.500    0.002
   OH  TYR    11 A    9.000    0.005
-  OH  TYR    11 A    9.500    0.039
-  OH  TYR    11 A   10.000    0.111
-  OH  TYR    11 A   10.500    0.235
-  OH  TYR    11 A   11.000    0.494
-  OH  TYR    11 A   11.500    0.755
-  OH  TYR    11 A   12.000    0.886
-  OH  TYR    11 A   12.500    0.962
-  OH  TYR    11 A   13.000    0.986
-  OH  TYR    11 A   13.500    0.992
-  OH  TYR    11 A   14.000    0.993
+  OH  TYR    11 A    9.500    0.010
+  OH  TYR    11 A   10.000    0.046
+  OH  TYR    11 A   10.500    0.139
+  OH  TYR    11 A   11.000    0.281
+  OH  TYR    11 A   11.500    0.532
+  OH  TYR    11 A   12.000    0.764
+  OH  TYR    11 A   12.500    0.917
+  OH  TYR    11 A   13.000    0.953
+  OH  TYR    11 A   13.500    0.987
+  OH  TYR    11 A   14.000    0.995
   OH  TYR    11 A   14.500    1.000
   OH  TYR    11 A   15.000    1.000
   OH  TYR    11 A   15.500    1.000
@@ -204,24 +224,28 @@ ATOM  RES RESN CH.     pH  ionization
   OH  TYR    11 A   17.000    1.000
   OH  TYR    11 A   17.500    1.000
   OH  TYR    11 A   18.000    1.000
+  CD  GLU    15 A   -4.000    0.000
+  CD  GLU    15 A   -3.500    0.000
+  CD  GLU    15 A   -3.000    0.000
+  CD  GLU    15 A   -2.500    0.000
   CD  GLU    15 A   -2.000    0.000
   CD  GLU    15 A   -1.500    0.000
   CD  GLU    15 A   -1.000    0.000
   CD  GLU    15 A   -0.500    0.000
-  CD  GLU    15 A    0.000    0.003
+  CD  GLU    15 A    0.000    0.001
   CD  GLU    15 A    0.500    0.000
-  CD  GLU    15 A    1.000    0.016
-  CD  GLU    15 A    1.500    0.027
-  CD  GLU    15 A    2.000    0.050
-  CD  GLU    15 A    2.500    0.158
-  CD  GLU    15 A    3.000    0.327
-  CD  GLU    15 A    3.500    0.526
-  CD  GLU    15 A    4.000    0.786
-  CD  GLU    15 A    4.500    0.916
-  CD  GLU    15 A    5.000    0.964
-  CD  GLU    15 A    5.500    0.986
-  CD  GLU    15 A    6.000    0.997
-  CD  GLU    15 A    6.500    0.999
+  CD  GLU    15 A    1.000    0.007
+  CD  GLU    15 A    1.500    0.023
+  CD  GLU    15 A    2.000    0.061
+  CD  GLU    15 A    2.500    0.137
+  CD  GLU    15 A    3.000    0.254
+  CD  GLU    15 A    3.500    0.494
+  CD  GLU    15 A    4.000    0.729
+  CD  GLU    15 A    4.500    0.889
+  CD  GLU    15 A    5.000    0.962
+  CD  GLU    15 A    5.500    0.984
+  CD  GLU    15 A    6.000    0.999
+  CD  GLU    15 A    6.500    0.998
   CD  GLU    15 A    7.000    1.000
   CD  GLU    15 A    7.500    1.000
   CD  GLU    15 A    8.000    1.000
@@ -245,21 +269,25 @@ ATOM  RES RESN CH.     pH  ionization
   CD  GLU    15 A   17.000    1.000
   CD  GLU    15 A   17.500    1.000
   CD  GLU    15 A   18.000    1.000
+  CD  GLU    17 A   -4.000    0.000
+  CD  GLU    17 A   -3.500    0.000
+  CD  GLU    17 A   -3.000    0.000
+  CD  GLU    17 A   -2.500    0.000
   CD  GLU    17 A   -2.000    0.000
   CD  GLU    17 A   -1.500    0.000
-  CD  GLU    17 A   -1.000    0.000
-  CD  GLU    17 A   -0.500    0.010
-  CD  GLU    17 A    0.000    0.019
-  CD  GLU    17 A    0.500    0.041
-  CD  GLU    17 A    1.000    0.163
-  CD  GLU    17 A    1.500    0.349
-  CD  GLU    17 A    2.000    0.559
-  CD  GLU    17 A    2.500    0.741
-  CD  GLU    17 A    3.000    0.867
-  CD  GLU    17 A    3.500    0.960
-  CD  GLU    17 A    4.000    0.988
-  CD  GLU    17 A    4.500    0.994
-  CD  GLU    17 A    5.000    0.998
+  CD  GLU    17 A   -1.000    0.004
+  CD  GLU    17 A   -0.500    0.003
+  CD  GLU    17 A    0.000    0.026
+  CD  GLU    17 A    0.500    0.031
+  CD  GLU    17 A    1.000    0.136
+  CD  GLU    17 A    1.500    0.232
+  CD  GLU    17 A    2.000    0.493
+  CD  GLU    17 A    2.500    0.678
+  CD  GLU    17 A    3.000    0.857
+  CD  GLU    17 A    3.500    0.937
+  CD  GLU    17 A    4.000    0.985
+  CD  GLU    17 A    4.500    0.992
+  CD  GLU    17 A    5.000    1.000
   CD  GLU    17 A    5.500    1.000
   CD  GLU    17 A    6.000    1.000
   CD  GLU    17 A    6.500    1.000
@@ -286,6 +314,10 @@ ATOM  RES RESN CH.     pH  ionization
   CD  GLU    17 A   17.000    1.000
   CD  GLU    17 A   17.500    1.000
   CD  GLU    17 A   18.000    1.000
+  NZ  LYS    18 A   -4.000    1.000
+  NZ  LYS    18 A   -3.500    1.000
+  NZ  LYS    18 A   -3.000    1.000
+  NZ  LYS    18 A   -2.500    1.000
   NZ  LYS    18 A   -2.000    1.000
   NZ  LYS    18 A   -1.500    1.000
   NZ  LYS    18 A   -1.000    1.000
@@ -306,43 +338,47 @@ ATOM  RES RESN CH.     pH  ionization
   NZ  LYS    18 A    6.500    1.000
   NZ  LYS    18 A    7.000    1.000
   NZ  LYS    18 A    7.500    1.000
-  NZ  LYS    18 A    8.000    1.000
-  NZ  LYS    18 A    8.500    0.999
-  NZ  LYS    18 A    9.000    1.000
+  NZ  LYS    18 A    8.000    0.995
+  NZ  LYS    18 A    8.500    1.000
+  NZ  LYS    18 A    9.000    0.995
   NZ  LYS    18 A    9.500    0.996
-  NZ  LYS    18 A   10.000    0.987
-  NZ  LYS    18 A   10.500    0.898
-  NZ  LYS    18 A   11.000    0.814
-  NZ  LYS    18 A   11.500    0.602
-  NZ  LYS    18 A   12.000    0.333
-  NZ  LYS    18 A   12.500    0.147
-  NZ  LYS    18 A   13.000    0.070
-  NZ  LYS    18 A   13.500    0.014
-  NZ  LYS    18 A   14.000    0.009
-  NZ  LYS    18 A   14.500    0.007
-  NZ  LYS    18 A   15.000    0.002
-  NZ  LYS    18 A   15.500    0.003
-  NZ  LYS    18 A   16.000    0.001
+  NZ  LYS    18 A   10.000    0.994
+  NZ  LYS    18 A   10.500    0.942
+  NZ  LYS    18 A   11.000    0.891
+  NZ  LYS    18 A   11.500    0.748
+  NZ  LYS    18 A   12.000    0.543
+  NZ  LYS    18 A   12.500    0.297
+  NZ  LYS    18 A   13.000    0.098
+  NZ  LYS    18 A   13.500    0.039
+  NZ  LYS    18 A   14.000    0.014
+  NZ  LYS    18 A   14.500    0.006
+  NZ  LYS    18 A   15.000    0.001
+  NZ  LYS    18 A   15.500    0.000
+  NZ  LYS    18 A   16.000    0.002
   NZ  LYS    18 A   16.500    0.000
   NZ  LYS    18 A   17.000    0.000
   NZ  LYS    18 A   17.500    0.000
   NZ  LYS    18 A   18.000    0.000
+  CD  GLU    19 A   -4.000    0.000
+  CD  GLU    19 A   -3.500    0.000
+  CD  GLU    19 A   -3.000    0.000
+  CD  GLU    19 A   -2.500    0.000
   CD  GLU    19 A   -2.000    0.000
-  CD  GLU    19 A   -1.500    0.004
-  CD  GLU    19 A   -1.000    0.003
-  CD  GLU    19 A   -0.500    0.003
-  CD  GLU    19 A    0.000    0.021
-  CD  GLU    19 A    0.500    0.055
-  CD  GLU    19 A    1.000    0.137
-  CD  GLU    19 A    1.500    0.280
-  CD  GLU    19 A    2.000    0.481
-  CD  GLU    19 A    2.500    0.693
-  CD  GLU    19 A    3.000    0.832
-  CD  GLU    19 A    3.500    0.899
-  CD  GLU    19 A    4.000    0.935
-  CD  GLU    19 A    4.500    0.983
-  CD  GLU    19 A    5.000    0.999
-  CD  GLU    19 A    5.500    0.996
+  CD  GLU    19 A   -1.500    0.000
+  CD  GLU    19 A   -1.000    0.000
+  CD  GLU    19 A   -0.500    0.002
+  CD  GLU    19 A    0.000    0.007
+  CD  GLU    19 A    0.500    0.032
+  CD  GLU    19 A    1.000    0.088
+  CD  GLU    19 A    1.500    0.238
+  CD  GLU    19 A    2.000    0.461
+  CD  GLU    19 A    2.500    0.683
+  CD  GLU    19 A    3.000    0.823
+  CD  GLU    19 A    3.500    0.929
+  CD  GLU    19 A    4.000    0.956
+  CD  GLU    19 A    4.500    0.979
+  CD  GLU    19 A    5.000    0.992
+  CD  GLU    19 A    5.500    0.998
   CD  GLU    19 A    6.000    1.000
   CD  GLU    19 A    6.500    1.000
   CD  GLU    19 A    7.000    1.000
@@ -368,6 +404,55 @@ ATOM  RES RESN CH.     pH  ionization
   CD  GLU    19 A   17.000    1.000
   CD  GLU    19 A   17.500    1.000
   CD  GLU    19 A   18.000    1.000
+ NE2  HIS    21 A   -4.000    1.000
+ NE2  HIS    21 A   -3.500    1.000
+ NE2  HIS    21 A   -3.000    1.000
+ NE2  HIS    21 A   -2.500    1.000
+ NE2  HIS    21 A   -2.000    1.000
+ NE2  HIS    21 A   -1.500    1.000
+ NE2  HIS    21 A   -1.000    1.000
+ NE2  HIS    21 A   -0.500    1.000
+ NE2  HIS    21 A    0.000    1.000
+ NE2  HIS    21 A    0.500    1.000
+ NE2  HIS    21 A    1.000    1.000
+ NE2  HIS    21 A    1.500    1.000
+ NE2  HIS    21 A    2.000    1.000
+ NE2  HIS    21 A    2.500    1.000
+ NE2  HIS    21 A    3.000    1.000
+ NE2  HIS    21 A    3.500    1.000
+ NE2  HIS    21 A    4.000    0.998
+ NE2  HIS    21 A    4.500    0.993
+ NE2  HIS    21 A    5.000    0.987
+ NE2  HIS    21 A    5.500    0.981
+ NE2  HIS    21 A    6.000    0.935
+ NE2  HIS    21 A    6.500    0.865
+ NE2  HIS    21 A    7.000    0.633
+ NE2  HIS    21 A    7.500    0.365
+ NE2  HIS    21 A    8.000    0.134
+ NE2  HIS    21 A    8.500    0.052
+ NE2  HIS    21 A    9.000    0.015
+ NE2  HIS    21 A    9.500    0.004
+ NE2  HIS    21 A   10.000    0.000
+ NE2  HIS    21 A   10.500    0.000
+ NE2  HIS    21 A   11.000    0.000
+ NE2  HIS    21 A   11.500    0.000
+ NE2  HIS    21 A   12.000    0.000
+ NE2  HIS    21 A   12.500    0.000
+ NE2  HIS    21 A   13.000    0.000
+ NE2  HIS    21 A   13.500    0.000
+ NE2  HIS    21 A   14.000    0.000
+ NE2  HIS    21 A   14.500    0.000
+ NE2  HIS    21 A   15.000    0.000
+ NE2  HIS    21 A   15.500    0.000
+ NE2  HIS    21 A   16.000    0.000
+ NE2  HIS    21 A   16.500    0.000
+ NE2  HIS    21 A   17.000    0.000
+ NE2  HIS    21 A   17.500    0.000
+ NE2  HIS    21 A   18.000    0.000
+  CZ  ARG    24 A   -4.000    1.000
+  CZ  ARG    24 A   -3.500    1.000
+  CZ  ARG    24 A   -3.000    1.000
+  CZ  ARG    24 A   -2.500    1.000
   CZ  ARG    24 A   -2.000    1.000
   CZ  ARG    24 A   -1.500    1.000
   CZ  ARG    24 A   -1.000    1.000
@@ -397,18 +482,22 @@ ATOM  RES RESN CH.     pH  ionization
   CZ  ARG    24 A   11.000    1.000
   CZ  ARG    24 A   11.500    1.000
   CZ  ARG    24 A   12.000    1.000
-  CZ  ARG    24 A   12.500    1.000
-  CZ  ARG    24 A   13.000    0.997
-  CZ  ARG    24 A   13.500    0.967
-  CZ  ARG    24 A   14.000    0.917
-  CZ  ARG    24 A   14.500    0.832
-  CZ  ARG    24 A   15.000    0.620
-  CZ  ARG    24 A   15.500    0.376
-  CZ  ARG    24 A   16.000    0.184
-  CZ  ARG    24 A   16.500    0.093
-  CZ  ARG    24 A   17.000    0.028
-  CZ  ARG    24 A   17.500    0.009
-  CZ  ARG    24 A   18.000    0.009
+  CZ  ARG    24 A   12.500    0.998
+  CZ  ARG    24 A   13.000    0.994
+  CZ  ARG    24 A   13.500    0.968
+  CZ  ARG    24 A   14.000    0.958
+  CZ  ARG    24 A   14.500    0.853
+  CZ  ARG    24 A   15.000    0.712
+  CZ  ARG    24 A   15.500    0.464
+  CZ  ARG    24 A   16.000    0.229
+  CZ  ARG    24 A   16.500    0.100
+  CZ  ARG    24 A   17.000    0.042
+  CZ  ARG    24 A   17.500    0.014
+  CZ  ARG    24 A   18.000    0.007
+  OH  TYR    25 A   -4.000    0.000
+  OH  TYR    25 A   -3.500    0.000
+  OH  TYR    25 A   -3.000    0.000
+  OH  TYR    25 A   -2.500    0.000
   OH  TYR    25 A   -2.000    0.000
   OH  TYR    25 A   -1.500    0.000
   OH  TYR    25 A   -1.000    0.000
@@ -425,22 +514,22 @@ ATOM  RES RESN CH.     pH  ionization
   OH  TYR    25 A    4.500    0.000
   OH  TYR    25 A    5.000    0.000
   OH  TYR    25 A    5.500    0.000
-  OH  TYR    25 A    6.000    0.002
-  OH  TYR    25 A    6.500    0.005
-  OH  TYR    25 A    7.000    0.012
-  OH  TYR    25 A    7.500    0.047
-  OH  TYR    25 A    8.000    0.093
-  OH  TYR    25 A    8.500    0.286
-  OH  TYR    25 A    9.000    0.552
-  OH  TYR    25 A    9.500    0.760
-  OH  TYR    25 A   10.000    0.905
-  OH  TYR    25 A   10.500    0.958
-  OH  TYR    25 A   11.000    0.984
-  OH  TYR    25 A   11.500    0.997
-  OH  TYR    25 A   12.000    0.998
-  OH  TYR    25 A   12.500    1.000
+  OH  TYR    25 A    6.000    0.000
+  OH  TYR    25 A    6.500    0.002
+  OH  TYR    25 A    7.000    0.008
+  OH  TYR    25 A    7.500    0.013
+  OH  TYR    25 A    8.000    0.066
+  OH  TYR    25 A    8.500    0.155
+  OH  TYR    25 A    9.000    0.325
+  OH  TYR    25 A    9.500    0.579
+  OH  TYR    25 A   10.000    0.832
+  OH  TYR    25 A   10.500    0.915
+  OH  TYR    25 A   11.000    0.970
+  OH  TYR    25 A   11.500    0.993
+  OH  TYR    25 A   12.000    0.997
+  OH  TYR    25 A   12.500    0.996
   OH  TYR    25 A   13.000    1.000
-  OH  TYR    25 A   13.500    1.000
+  OH  TYR    25 A   13.500    0.998
   OH  TYR    25 A   14.000    1.000
   OH  TYR    25 A   14.500    1.000
   OH  TYR    25 A   15.000    1.000
@@ -450,6 +539,10 @@ ATOM  RES RESN CH.     pH  ionization
   OH  TYR    25 A   17.000    1.000
   OH  TYR    25 A   17.500    1.000
   OH  TYR    25 A   18.000    1.000
+  CZ  ARG    28 A   -4.000    1.000
+  CZ  ARG    28 A   -3.500    1.000
+  CZ  ARG    28 A   -3.000    1.000
+  CZ  ARG    28 A   -2.500    1.000
   CZ  ARG    28 A   -2.000    1.000
   CZ  ARG    28 A   -1.500    1.000
   CZ  ARG    28 A   -1.000    1.000
@@ -477,20 +570,24 @@ ATOM  RES RESN CH.     pH  ionization
   CZ  ARG    28 A   10.000    1.000
   CZ  ARG    28 A   10.500    1.000
   CZ  ARG    28 A   11.000    1.000
-  CZ  ARG    28 A   11.500    0.999
-  CZ  ARG    28 A   12.000    0.997
-  CZ  ARG    28 A   12.500    0.991
-  CZ  ARG    28 A   13.000    0.958
-  CZ  ARG    28 A   13.500    0.912
-  CZ  ARG    28 A   14.000    0.773
-  CZ  ARG    28 A   14.500    0.612
-  CZ  ARG    28 A   15.000    0.388
-  CZ  ARG    28 A   15.500    0.248
-  CZ  ARG    28 A   16.000    0.126
-  CZ  ARG    28 A   16.500    0.044
-  CZ  ARG    28 A   17.000    0.025
-  CZ  ARG    28 A   17.500    0.009
-  CZ  ARG    28 A   18.000    0.001
+  CZ  ARG    28 A   11.500    0.998
+  CZ  ARG    28 A   12.000    0.998
+  CZ  ARG    28 A   12.500    0.998
+  CZ  ARG    28 A   13.000    0.984
+  CZ  ARG    28 A   13.500    0.937
+  CZ  ARG    28 A   14.000    0.821
+  CZ  ARG    28 A   14.500    0.655
+  CZ  ARG    28 A   15.000    0.431
+  CZ  ARG    28 A   15.500    0.239
+  CZ  ARG    28 A   16.000    0.193
+  CZ  ARG    28 A   16.500    0.067
+  CZ  ARG    28 A   17.000    0.036
+  CZ  ARG    28 A   17.500    0.016
+  CZ  ARG    28 A   18.000    0.011
+  CZ  ARG    29 A   -4.000    1.000
+  CZ  ARG    29 A   -3.500    1.000
+  CZ  ARG    29 A   -3.000    1.000
+  CZ  ARG    29 A   -2.500    1.000
   CZ  ARG    29 A   -2.000    1.000
   CZ  ARG    29 A   -1.500    1.000
   CZ  ARG    29 A   -1.000    1.000
@@ -517,21 +614,25 @@ ATOM  RES RESN CH.     pH  ionization
   CZ  ARG    29 A    9.500    1.000
   CZ  ARG    29 A   10.000    1.000
   CZ  ARG    29 A   10.500    1.000
-  CZ  ARG    29 A   11.000    0.999
-  CZ  ARG    29 A   11.500    0.999
-  CZ  ARG    29 A   12.000    0.997
-  CZ  ARG    29 A   12.500    0.985
-  CZ  ARG    29 A   13.000    0.957
-  CZ  ARG    29 A   13.500    0.880
-  CZ  ARG    29 A   14.000    0.696
-  CZ  ARG    29 A   14.500    0.390
-  CZ  ARG    29 A   15.000    0.194
-  CZ  ARG    29 A   15.500    0.061
-  CZ  ARG    29 A   16.000    0.024
-  CZ  ARG    29 A   16.500    0.007
-  CZ  ARG    29 A   17.000    0.001
+  CZ  ARG    29 A   11.000    1.000
+  CZ  ARG    29 A   11.500    0.997
+  CZ  ARG    29 A   12.000    1.000
+  CZ  ARG    29 A   12.500    0.990
+  CZ  ARG    29 A   13.000    0.955
+  CZ  ARG    29 A   13.500    0.876
+  CZ  ARG    29 A   14.000    0.667
+  CZ  ARG    29 A   14.500    0.445
+  CZ  ARG    29 A   15.000    0.182
+  CZ  ARG    29 A   15.500    0.102
+  CZ  ARG    29 A   16.000    0.033
+  CZ  ARG    29 A   16.500    0.009
+  CZ  ARG    29 A   17.000    0.004
   CZ  ARG    29 A   17.500    0.000
   CZ  ARG    29 A   18.000    0.000
+  CZ  ARG    30 A   -4.000    1.000
+  CZ  ARG    30 A   -3.500    1.000
+  CZ  ARG    30 A   -3.000    1.000
+  CZ  ARG    30 A   -2.500    1.000
   CZ  ARG    30 A   -2.000    1.000
   CZ  ARG    30 A   -1.500    1.000
   CZ  ARG    30 A   -1.000    1.000
@@ -559,20 +660,24 @@ ATOM  RES RESN CH.     pH  ionization
   CZ  ARG    30 A   10.000    1.000
   CZ  ARG    30 A   10.500    1.000
   CZ  ARG    30 A   11.000    1.000
-  CZ  ARG    30 A   11.500    0.999
+  CZ  ARG    30 A   11.500    1.000
   CZ  ARG    30 A   12.000    1.000
   CZ  ARG    30 A   12.500    1.000
   CZ  ARG    30 A   13.000    1.000
   CZ  ARG    30 A   13.500    1.000
   CZ  ARG    30 A   14.000    1.000
-  CZ  ARG    30 A   14.500    0.996
-  CZ  ARG    30 A   15.000    0.992
-  CZ  ARG    30 A   15.500    0.964
-  CZ  ARG    30 A   16.000    0.926
-  CZ  ARG    30 A   16.500    0.785
-  CZ  ARG    30 A   17.000    0.566
-  CZ  ARG    30 A   17.500    0.298
-  CZ  ARG    30 A   18.000    0.135
+  CZ  ARG    30 A   14.500    0.999
+  CZ  ARG    30 A   15.000    0.999
+  CZ  ARG    30 A   15.500    0.986
+  CZ  ARG    30 A   16.000    0.940
+  CZ  ARG    30 A   16.500    0.823
+  CZ  ARG    30 A   17.000    0.643
+  CZ  ARG    30 A   17.500    0.353
+  CZ  ARG    30 A   18.000    0.160
+  CZ  ARG    31 A   -4.000    1.000
+  CZ  ARG    31 A   -3.500    1.000
+  CZ  ARG    31 A   -3.000    1.000
+  CZ  ARG    31 A   -2.500    1.000
   CZ  ARG    31 A   -2.000    1.000
   CZ  ARG    31 A   -1.500    1.000
   CZ  ARG    31 A   -1.000    1.000
@@ -598,39 +703,43 @@ ATOM  RES RESN CH.     pH  ionization
   CZ  ARG    31 A    9.000    1.000
   CZ  ARG    31 A    9.500    1.000
   CZ  ARG    31 A   10.000    1.000
-  CZ  ARG    31 A   10.500    0.999
-  CZ  ARG    31 A   11.000    0.998
+  CZ  ARG    31 A   10.500    1.000
+  CZ  ARG    31 A   11.000    1.000
   CZ  ARG    31 A   11.500    1.000
-  CZ  ARG    31 A   12.000    1.000
-  CZ  ARG    31 A   12.500    0.998
-  CZ  ARG    31 A   13.000    0.989
-  CZ  ARG    31 A   13.500    0.961
-  CZ  ARG    31 A   14.000    0.909
-  CZ  ARG    31 A   14.500    0.763
-  CZ  ARG    31 A   15.000    0.698
-  CZ  ARG    31 A   15.500    0.529
-  CZ  ARG    31 A   16.000    0.350
-  CZ  ARG    31 A   16.500    0.168
-  CZ  ARG    31 A   17.000    0.068
-  CZ  ARG    31 A   17.500    0.026
-  CZ  ARG    31 A   18.000    0.006
+  CZ  ARG    31 A   12.000    0.997
+  CZ  ARG    31 A   12.500    0.996
+  CZ  ARG    31 A   13.000    0.992
+  CZ  ARG    31 A   13.500    0.966
+  CZ  ARG    31 A   14.000    0.939
+  CZ  ARG    31 A   14.500    0.855
+  CZ  ARG    31 A   15.000    0.742
+  CZ  ARG    31 A   15.500    0.657
+  CZ  ARG    31 A   16.000    0.455
+  CZ  ARG    31 A   16.500    0.233
+  CZ  ARG    31 A   17.000    0.119
+  CZ  ARG    31 A   17.500    0.049
+  CZ  ARG    31 A   18.000    0.017
+  CD  GLU    33 A   -4.000    0.000
+  CD  GLU    33 A   -3.500    0.000
+  CD  GLU    33 A   -3.000    0.000
+  CD  GLU    33 A   -2.500    0.000
   CD  GLU    33 A   -2.000    0.000
   CD  GLU    33 A   -1.500    0.000
   CD  GLU    33 A   -1.000    0.000
   CD  GLU    33 A   -0.500    0.000
   CD  GLU    33 A    0.000    0.003
-  CD  GLU    33 A    0.500    0.008
-  CD  GLU    33 A    1.000    0.020
-  CD  GLU    33 A    1.500    0.044
-  CD  GLU    33 A    2.000    0.114
-  CD  GLU    33 A    2.500    0.244
-  CD  GLU    33 A    3.000    0.477
-  CD  GLU    33 A    3.500    0.728
-  CD  GLU    33 A    4.000    0.902
-  CD  GLU    33 A    4.500    0.955
-  CD  GLU    33 A    5.000    0.993
-  CD  GLU    33 A    5.500    0.994
-  CD  GLU    33 A    6.000    0.998
+  CD  GLU    33 A    0.500    0.005
+  CD  GLU    33 A    1.000    0.029
+  CD  GLU    33 A    1.500    0.039
+  CD  GLU    33 A    2.000    0.075
+  CD  GLU    33 A    2.500    0.222
+  CD  GLU    33 A    3.000    0.392
+  CD  GLU    33 A    3.500    0.622
+  CD  GLU    33 A    4.000    0.849
+  CD  GLU    33 A    4.500    0.928
+  CD  GLU    33 A    5.000    0.983
+  CD  GLU    33 A    5.500    0.985
+  CD  GLU    33 A    6.000    0.995
   CD  GLU    33 A    6.500    0.997
   CD  GLU    33 A    7.000    1.000
   CD  GLU    33 A    7.500    1.000
@@ -655,23 +764,72 @@ ATOM  RES RESN CH.     pH  ionization
   CD  GLU    33 A   17.000    1.000
   CD  GLU    33 A   17.500    1.000
   CD  GLU    33 A   18.000    1.000
+ NE2  HIS    36 A   -4.000    1.000
+ NE2  HIS    36 A   -3.500    1.000
+ NE2  HIS    36 A   -3.000    1.000
+ NE2  HIS    36 A   -2.500    1.000
+ NE2  HIS    36 A   -2.000    1.000
+ NE2  HIS    36 A   -1.500    1.000
+ NE2  HIS    36 A   -1.000    1.000
+ NE2  HIS    36 A   -0.500    1.000
+ NE2  HIS    36 A    0.000    1.000
+ NE2  HIS    36 A    0.500    1.000
+ NE2  HIS    36 A    1.000    1.000
+ NE2  HIS    36 A    1.500    1.000
+ NE2  HIS    36 A    2.000    1.000
+ NE2  HIS    36 A    2.500    1.000
+ NE2  HIS    36 A    3.000    1.000
+ NE2  HIS    36 A    3.500    1.000
+ NE2  HIS    36 A    4.000    1.000
+ NE2  HIS    36 A    4.500    1.000
+ NE2  HIS    36 A    5.000    0.996
+ NE2  HIS    36 A    5.500    0.994
+ NE2  HIS    36 A    6.000    0.963
+ NE2  HIS    36 A    6.500    0.916
+ NE2  HIS    36 A    7.000    0.763
+ NE2  HIS    36 A    7.500    0.517
+ NE2  HIS    36 A    8.000    0.243
+ NE2  HIS    36 A    8.500    0.095
+ NE2  HIS    36 A    9.000    0.030
+ NE2  HIS    36 A    9.500    0.005
+ NE2  HIS    36 A   10.000    0.004
+ NE2  HIS    36 A   10.500    0.000
+ NE2  HIS    36 A   11.000    0.002
+ NE2  HIS    36 A   11.500    0.000
+ NE2  HIS    36 A   12.000    0.000
+ NE2  HIS    36 A   12.500    0.000
+ NE2  HIS    36 A   13.000    0.000
+ NE2  HIS    36 A   13.500    0.000
+ NE2  HIS    36 A   14.000    0.000
+ NE2  HIS    36 A   14.500    0.000
+ NE2  HIS    36 A   15.000    0.000
+ NE2  HIS    36 A   15.500    0.000
+ NE2  HIS    36 A   16.000    0.000
+ NE2  HIS    36 A   16.500    0.000
+ NE2  HIS    36 A   17.000    0.000
+ NE2  HIS    36 A   17.500    0.000
+ NE2  HIS    36 A   18.000    0.000
+  CD  GLU    42 A   -4.000    0.000
+  CD  GLU    42 A   -3.500    0.000
+  CD  GLU    42 A   -3.000    0.000
+  CD  GLU    42 A   -2.500    0.000
   CD  GLU    42 A   -2.000    0.000
   CD  GLU    42 A   -1.500    0.000
   CD  GLU    42 A   -1.000    0.002
-  CD  GLU    42 A   -0.500    0.009
-  CD  GLU    42 A    0.000    0.009
-  CD  GLU    42 A    0.500    0.036
-  CD  GLU    42 A    1.000    0.136
-  CD  GLU    42 A    1.500    0.340
-  CD  GLU    42 A    2.000    0.560
-  CD  GLU    42 A    2.500    0.813
-  CD  GLU    42 A    3.000    0.916
-  CD  GLU    42 A    3.500    0.964
-  CD  GLU    42 A    4.000    0.990
-  CD  GLU    42 A    4.500    0.998
-  CD  GLU    42 A    5.000    0.993
+  CD  GLU    42 A   -0.500    0.006
+  CD  GLU    42 A    0.000    0.013
+  CD  GLU    42 A    0.500    0.037
+  CD  GLU    42 A    1.000    0.103
+  CD  GLU    42 A    1.500    0.285
+  CD  GLU    42 A    2.000    0.529
+  CD  GLU    42 A    2.500    0.775
+  CD  GLU    42 A    3.000    0.902
+  CD  GLU    42 A    3.500    0.961
+  CD  GLU    42 A    4.000    0.989
+  CD  GLU    42 A    4.500    0.996
+  CD  GLU    42 A    5.000    1.000
   CD  GLU    42 A    5.500    1.000
-  CD  GLU    42 A    6.000    0.999
+  CD  GLU    42 A    6.000    1.000
   CD  GLU    42 A    6.500    1.000
   CD  GLU    42 A    7.000    1.000
   CD  GLU    42 A    7.500    1.000
@@ -696,6 +854,10 @@ ATOM  RES RESN CH.     pH  ionization
   CD  GLU    42 A   17.000    1.000
   CD  GLU    42 A   17.500    1.000
   CD  GLU    42 A   18.000    1.000
+  CZ  ARG    43 A   -4.000    1.000
+  CZ  ARG    43 A   -3.500    1.000
+  CZ  ARG    43 A   -3.000    1.000
+  CZ  ARG    43 A   -2.500    1.000
   CZ  ARG    43 A   -2.000    1.000
   CZ  ARG    43 A   -1.500    1.000
   CZ  ARG    43 A   -1.000    1.000
@@ -723,20 +885,24 @@ ATOM  RES RESN CH.     pH  ionization
   CZ  ARG    43 A   10.000    1.000
   CZ  ARG    43 A   10.500    1.000
   CZ  ARG    43 A   11.000    1.000
-  CZ  ARG    43 A   11.500    0.998
-  CZ  ARG    43 A   12.000    0.995
-  CZ  ARG    43 A   12.500    0.987
-  CZ  ARG    43 A   13.000    0.947
-  CZ  ARG    43 A   13.500    0.882
-  CZ  ARG    43 A   14.000    0.704
-  CZ  ARG    43 A   14.500    0.446
-  CZ  ARG    43 A   15.000    0.240
-  CZ  ARG    43 A   15.500    0.084
-  CZ  ARG    43 A   16.000    0.032
-  CZ  ARG    43 A   16.500    0.014
-  CZ  ARG    43 A   17.000    0.002
-  CZ  ARG    43 A   17.500    0.004
+  CZ  ARG    43 A   11.500    0.999
+  CZ  ARG    43 A   12.000    0.994
+  CZ  ARG    43 A   12.500    0.982
+  CZ  ARG    43 A   13.000    0.936
+  CZ  ARG    43 A   13.500    0.822
+  CZ  ARG    43 A   14.000    0.691
+  CZ  ARG    43 A   14.500    0.417
+  CZ  ARG    43 A   15.000    0.214
+  CZ  ARG    43 A   15.500    0.082
+  CZ  ARG    43 A   16.000    0.030
+  CZ  ARG    43 A   16.500    0.003
+  CZ  ARG    43 A   17.000    0.001
+  CZ  ARG    43 A   17.500    0.000
   CZ  ARG    43 A   18.000    0.000
+  NZ  LYS    46 A   -4.000    1.000
+  NZ  LYS    46 A   -3.500    1.000
+  NZ  LYS    46 A   -3.000    1.000
+  NZ  LYS    46 A   -2.500    1.000
   NZ  LYS    46 A   -2.000    1.000
   NZ  LYS    46 A   -1.500    1.000
   NZ  LYS    46 A   -1.000    1.000
@@ -755,20 +921,20 @@ ATOM  RES RESN CH.     pH  ionization
   NZ  LYS    46 A    5.500    1.000
   NZ  LYS    46 A    6.000    1.000
   NZ  LYS    46 A    6.500    1.000
-  NZ  LYS    46 A    7.000    0.998
-  NZ  LYS    46 A    7.500    0.996
-  NZ  LYS    46 A    8.000    0.989
-  NZ  LYS    46 A    8.500    0.967
-  NZ  LYS    46 A    9.000    0.886
-  NZ  LYS    46 A    9.500    0.758
-  NZ  LYS    46 A   10.000    0.492
-  NZ  LYS    46 A   10.500    0.264
-  NZ  LYS    46 A   11.000    0.094
-  NZ  LYS    46 A   11.500    0.058
-  NZ  LYS    46 A   12.000    0.012
-  NZ  LYS    46 A   12.500    0.003
-  NZ  LYS    46 A   13.000    0.001
-  NZ  LYS    46 A   13.500    0.000
+  NZ  LYS    46 A    7.000    1.000
+  NZ  LYS    46 A    7.500    0.998
+  NZ  LYS    46 A    8.000    0.988
+  NZ  LYS    46 A    8.500    0.986
+  NZ  LYS    46 A    9.000    0.935
+  NZ  LYS    46 A    9.500    0.819
+  NZ  LYS    46 A   10.000    0.632
+  NZ  LYS    46 A   10.500    0.370
+  NZ  LYS    46 A   11.000    0.177
+  NZ  LYS    46 A   11.500    0.065
+  NZ  LYS    46 A   12.000    0.035
+  NZ  LYS    46 A   12.500    0.010
+  NZ  LYS    46 A   13.000    0.003
+  NZ  LYS    46 A   13.500    0.006
   NZ  LYS    46 A   14.000    0.000
   NZ  LYS    46 A   14.500    0.000
   NZ  LYS    46 A   15.000    0.000
@@ -778,6 +944,10 @@ ATOM  RES RESN CH.     pH  ionization
   NZ  LYS    46 A   17.000    0.000
   NZ  LYS    46 A   17.500    0.000
   NZ  LYS    46 A   18.000    0.000
+  CZ  ARG    52 A   -4.000    1.000
+  CZ  ARG    52 A   -3.500    1.000
+  CZ  ARG    52 A   -3.000    1.000
+  CZ  ARG    52 A   -2.500    1.000
   CZ  ARG    52 A   -2.000    1.000
   CZ  ARG    52 A   -1.500    1.000
   CZ  ARG    52 A   -1.000    1.000
@@ -811,14 +981,18 @@ ATOM  RES RESN CH.     pH  ionization
   CZ  ARG    52 A   13.000    1.000
   CZ  ARG    52 A   13.500    1.000
   CZ  ARG    52 A   14.000    1.000
-  CZ  ARG    52 A   14.500    0.998
-  CZ  ARG    52 A   15.000    0.998
-  CZ  ARG    52 A   15.500    0.997
-  CZ  ARG    52 A   16.000    0.988
-  CZ  ARG    52 A   16.500    0.955
-  CZ  ARG    52 A   17.000    0.901
-  CZ  ARG    52 A   17.500    0.757
-  CZ  ARG    52 A   18.000    0.487
+  CZ  ARG    52 A   14.500    1.000
+  CZ  ARG    52 A   15.000    0.997
+  CZ  ARG    52 A   15.500    0.998
+  CZ  ARG    52 A   16.000    0.990
+  CZ  ARG    52 A   16.500    0.985
+  CZ  ARG    52 A   17.000    0.918
+  CZ  ARG    52 A   17.500    0.820
+  CZ  ARG    52 A   18.000    0.623
+  CZ  ARG    53 A   -4.000    1.000
+  CZ  ARG    53 A   -3.500    1.000
+  CZ  ARG    53 A   -3.000    1.000
+  CZ  ARG    53 A   -2.500    1.000
   CZ  ARG    53 A   -2.000    1.000
   CZ  ARG    53 A   -1.500    1.000
   CZ  ARG    53 A   -1.000    1.000
@@ -847,19 +1021,23 @@ ATOM  RES RESN CH.     pH  ionization
   CZ  ARG    53 A   10.500    1.000
   CZ  ARG    53 A   11.000    1.000
   CZ  ARG    53 A   11.500    1.000
-  CZ  ARG    53 A   12.000    0.998
-  CZ  ARG    53 A   12.500    0.997
-  CZ  ARG    53 A   13.000    0.990
+  CZ  ARG    53 A   12.000    0.999
+  CZ  ARG    53 A   12.500    0.996
+  CZ  ARG    53 A   13.000    0.997
   CZ  ARG    53 A   13.500    0.982
-  CZ  ARG    53 A   14.000    0.937
-  CZ  ARG    53 A   14.500    0.849
-  CZ  ARG    53 A   15.000    0.670
+  CZ  ARG    53 A   14.000    0.943
+  CZ  ARG    53 A   14.500    0.852
+  CZ  ARG    53 A   15.000    0.721
   CZ  ARG    53 A   15.500    0.471
-  CZ  ARG    53 A   16.000    0.246
-  CZ  ARG    53 A   16.500    0.146
-  CZ  ARG    53 A   17.000    0.051
-  CZ  ARG    53 A   17.500    0.028
-  CZ  ARG    53 A   18.000    0.007
+  CZ  ARG    53 A   16.000    0.306
+  CZ  ARG    53 A   16.500    0.178
+  CZ  ARG    53 A   17.000    0.054
+  CZ  ARG    53 A   17.500    0.027
+  CZ  ARG    53 A   18.000    0.008
+  NZ  LYS    55 A   -4.000    1.000
+  NZ  LYS    55 A   -3.500    1.000
+  NZ  LYS    55 A   -3.000    1.000
+  NZ  LYS    55 A   -2.500    1.000
   NZ  LYS    55 A   -2.000    1.000
   NZ  LYS    55 A   -1.500    1.000
   NZ  LYS    55 A   -1.000    1.000
@@ -878,29 +1056,33 @@ ATOM  RES RESN CH.     pH  ionization
   NZ  LYS    55 A    5.500    1.000
   NZ  LYS    55 A    6.000    1.000
   NZ  LYS    55 A    6.500    1.000
-  NZ  LYS    55 A    7.000    1.000
+  NZ  LYS    55 A    7.000    0.999
   NZ  LYS    55 A    7.500    1.000
   NZ  LYS    55 A    8.000    1.000
   NZ  LYS    55 A    8.500    1.000
-  NZ  LYS    55 A    9.000    0.994
-  NZ  LYS    55 A    9.500    0.990
-  NZ  LYS    55 A   10.000    0.970
-  NZ  LYS    55 A   10.500    0.898
-  NZ  LYS    55 A   11.000    0.758
-  NZ  LYS    55 A   11.500    0.550
-  NZ  LYS    55 A   12.000    0.270
-  NZ  LYS    55 A   12.500    0.103
-  NZ  LYS    55 A   13.000    0.027
-  NZ  LYS    55 A   13.500    0.015
-  NZ  LYS    55 A   14.000    0.009
+  NZ  LYS    55 A    9.000    0.996
+  NZ  LYS    55 A    9.500    0.987
+  NZ  LYS    55 A   10.000    0.979
+  NZ  LYS    55 A   10.500    0.936
+  NZ  LYS    55 A   11.000    0.863
+  NZ  LYS    55 A   11.500    0.653
+  NZ  LYS    55 A   12.000    0.405
+  NZ  LYS    55 A   12.500    0.170
+  NZ  LYS    55 A   13.000    0.090
+  NZ  LYS    55 A   13.500    0.022
+  NZ  LYS    55 A   14.000    0.014
   NZ  LYS    55 A   14.500    0.003
   NZ  LYS    55 A   15.000    0.000
-  NZ  LYS    55 A   15.500    0.002
+  NZ  LYS    55 A   15.500    0.001
   NZ  LYS    55 A   16.000    0.000
   NZ  LYS    55 A   16.500    0.000
   NZ  LYS    55 A   17.000    0.000
   NZ  LYS    55 A   17.500    0.000
   NZ  LYS    55 A   18.000    0.000
+  NZ  LYS    57 A   -4.000    1.000
+  NZ  LYS    57 A   -3.500    1.000
+  NZ  LYS    57 A   -3.000    1.000
+  NZ  LYS    57 A   -2.500    1.000
   NZ  LYS    57 A   -2.000    1.000
   NZ  LYS    57 A   -1.500    1.000
   NZ  LYS    57 A   -1.000    1.000
@@ -919,29 +1101,33 @@ ATOM  RES RESN CH.     pH  ionization
   NZ  LYS    57 A    5.500    1.000
   NZ  LYS    57 A    6.000    1.000
   NZ  LYS    57 A    6.500    1.000
-  NZ  LYS    57 A    7.000    0.998
-  NZ  LYS    57 A    7.500    0.993
-  NZ  LYS    57 A    8.000    0.976
-  NZ  LYS    57 A    8.500    0.955
-  NZ  LYS    57 A    9.000    0.842
-  NZ  LYS    57 A    9.500    0.729
-  NZ  LYS    57 A   10.000    0.561
-  NZ  LYS    57 A   10.500    0.394
-  NZ  LYS    57 A   11.000    0.216
-  NZ  LYS    57 A   11.500    0.089
-  NZ  LYS    57 A   12.000    0.039
-  NZ  LYS    57 A   12.500    0.008
-  NZ  LYS    57 A   13.000    0.007
+  NZ  LYS    57 A    7.000    1.000
+  NZ  LYS    57 A    7.500    0.995
+  NZ  LYS    57 A    8.000    0.993
+  NZ  LYS    57 A    8.500    0.968
+  NZ  LYS    57 A    9.000    0.899
+  NZ  LYS    57 A    9.500    0.805
+  NZ  LYS    57 A   10.000    0.690
+  NZ  LYS    57 A   10.500    0.475
+  NZ  LYS    57 A   11.000    0.308
+  NZ  LYS    57 A   11.500    0.172
+  NZ  LYS    57 A   12.000    0.057
+  NZ  LYS    57 A   12.500    0.020
+  NZ  LYS    57 A   13.000    0.003
   NZ  LYS    57 A   13.500    0.002
-  NZ  LYS    57 A   14.000    0.002
+  NZ  LYS    57 A   14.000    0.000
   NZ  LYS    57 A   14.500    0.000
   NZ  LYS    57 A   15.000    0.000
   NZ  LYS    57 A   15.500    0.000
-  NZ  LYS    57 A   16.000    0.000
+  NZ  LYS    57 A   16.000    0.005
   NZ  LYS    57 A   16.500    0.000
   NZ  LYS    57 A   17.000    0.000
   NZ  LYS    57 A   17.500    0.000
   NZ  LYS    57 A   18.000    0.000
+  NZ  LYS    58 A   -4.000    1.000
+  NZ  LYS    58 A   -3.500    1.000
+  NZ  LYS    58 A   -3.000    1.000
+  NZ  LYS    58 A   -2.500    1.000
   NZ  LYS    58 A   -2.000    1.000
   NZ  LYS    58 A   -1.500    1.000
   NZ  LYS    58 A   -1.000    1.000
@@ -961,47 +1147,51 @@ ATOM  RES RESN CH.     pH  ionization
   NZ  LYS    58 A    6.000    1.000
   NZ  LYS    58 A    6.500    1.000
   NZ  LYS    58 A    7.000    0.999
-  NZ  LYS    58 A    7.500    0.993
-  NZ  LYS    58 A    8.000    0.989
-  NZ  LYS    58 A    8.500    0.957
-  NZ  LYS    58 A    9.000    0.879
-  NZ  LYS    58 A    9.500    0.757
-  NZ  LYS    58 A   10.000    0.533
-  NZ  LYS    58 A   10.500    0.367
-  NZ  LYS    58 A   11.000    0.200
-  NZ  LYS    58 A   11.500    0.088
-  NZ  LYS    58 A   12.000    0.043
-  NZ  LYS    58 A   12.500    0.007
-  NZ  LYS    58 A   13.000    0.004
-  NZ  LYS    58 A   13.500    0.000
-  NZ  LYS    58 A   14.000    0.001
-  NZ  LYS    58 A   14.500    0.001
-  NZ  LYS    58 A   15.000    0.002
+  NZ  LYS    58 A    7.500    0.997
+  NZ  LYS    58 A    8.000    0.975
+  NZ  LYS    58 A    8.500    0.953
+  NZ  LYS    58 A    9.000    0.932
+  NZ  LYS    58 A    9.500    0.772
+  NZ  LYS    58 A   10.000    0.617
+  NZ  LYS    58 A   10.500    0.462
+  NZ  LYS    58 A   11.000    0.296
+  NZ  LYS    58 A   11.500    0.161
+  NZ  LYS    58 A   12.000    0.074
+  NZ  LYS    58 A   12.500    0.029
+  NZ  LYS    58 A   13.000    0.012
+  NZ  LYS    58 A   13.500    0.002
+  NZ  LYS    58 A   14.000    0.004
+  NZ  LYS    58 A   14.500    0.000
+  NZ  LYS    58 A   15.000    0.000
   NZ  LYS    58 A   15.500    0.000
   NZ  LYS    58 A   16.000    0.000
   NZ  LYS    58 A   16.500    0.000
   NZ  LYS    58 A   17.000    0.000
   NZ  LYS    58 A   17.500    0.000
   NZ  LYS    58 A   18.000    0.000
-  CD  GLU    59 A   -2.000    0.001
+  CD  GLU    59 A   -4.000    0.000
+  CD  GLU    59 A   -3.500    0.000
+  CD  GLU    59 A   -3.000    0.000
+  CD  GLU    59 A   -2.500    0.000
+  CD  GLU    59 A   -2.000    0.000
   CD  GLU    59 A   -1.500    0.000
   CD  GLU    59 A   -1.000    0.000
   CD  GLU    59 A   -0.500    0.000
-  CD  GLU    59 A    0.000    0.001
-  CD  GLU    59 A    0.500    0.007
-  CD  GLU    59 A    1.000    0.032
-  CD  GLU    59 A    1.500    0.092
-  CD  GLU    59 A    2.000    0.182
-  CD  GLU    59 A    2.500    0.405
-  CD  GLU    59 A    3.000    0.604
-  CD  GLU    59 A    3.500    0.789
-  CD  GLU    59 A    4.000    0.914
-  CD  GLU    59 A    4.500    0.975
-  CD  GLU    59 A    5.000    0.993
-  CD  GLU    59 A    5.500    1.000
-  CD  GLU    59 A    6.000    1.000
+  CD  GLU    59 A    0.000    0.000
+  CD  GLU    59 A    0.500    0.005
+  CD  GLU    59 A    1.000    0.015
+  CD  GLU    59 A    1.500    0.051
+  CD  GLU    59 A    2.000    0.093
+  CD  GLU    59 A    2.500    0.233
+  CD  GLU    59 A    3.000    0.454
+  CD  GLU    59 A    3.500    0.728
+  CD  GLU    59 A    4.000    0.893
+  CD  GLU    59 A    4.500    0.954
+  CD  GLU    59 A    5.000    0.982
+  CD  GLU    59 A    5.500    0.991
+  CD  GLU    59 A    6.000    0.997
   CD  GLU    59 A    6.500    1.000
-  CD  GLU    59 A    7.000    0.998
+  CD  GLU    59 A    7.000    1.000
   CD  GLU    59 A    7.500    1.000
   CD  GLU    59 A    8.000    1.000
   CD  GLU    59 A    8.500    1.000
@@ -1024,44 +1214,48 @@ ATOM  RES RESN CH.     pH  ionization
   CD  GLU    59 A   17.000    1.000
   CD  GLU    59 A   17.500    1.000
   CD  GLU    59 A   18.000    1.000
-   C  ASN    60 A   -2.000    0.000
-   C  ASN    60 A   -1.500    0.000
-   C  ASN    60 A   -1.000    0.000
-   C  ASN    60 A   -0.500    0.000
-   C  ASN    60 A    0.000    0.003
-   C  ASN    60 A    0.500    0.002
-   C  ASN    60 A    1.000    0.012
-   C  ASN    60 A    1.500    0.046
-   C  ASN    60 A    2.000    0.114
-   C  ASN    60 A    2.500    0.191
-   C  ASN    60 A    3.000    0.451
-   C  ASN    60 A    3.500    0.679
-   C  ASN    60 A    4.000    0.869
-   C  ASN    60 A    4.500    0.944
-   C  ASN    60 A    5.000    0.976
-   C  ASN    60 A    5.500    0.993
-   C  ASN    60 A    6.000    0.999
+   C  ASN    60 A   -4.000    1.000
+   C  ASN    60 A   -3.500    1.000
+   C  ASN    60 A   -3.000    1.000
+   C  ASN    60 A   -2.500    1.000
+   C  ASN    60 A   -2.000    1.000
+   C  ASN    60 A   -1.500    1.000
+   C  ASN    60 A   -1.000    1.000
+   C  ASN    60 A   -0.500    1.000
+   C  ASN    60 A    0.000    1.000
+   C  ASN    60 A    0.500    1.000
+   C  ASN    60 A    1.000    1.000
+   C  ASN    60 A    1.500    1.000
+   C  ASN    60 A    2.000    1.000
+   C  ASN    60 A    2.500    1.000
+   C  ASN    60 A    3.000    1.000
+   C  ASN    60 A    3.500    1.000
+   C  ASN    60 A    4.000    1.000
+   C  ASN    60 A    4.500    1.000
+   C  ASN    60 A    5.000    1.000
+   C  ASN    60 A    5.500    1.000
+   C  ASN    60 A    6.000    1.000
    C  ASN    60 A    6.500    1.000
-   C  ASN    60 A    7.000    1.000
-   C  ASN    60 A    7.500    1.000
+   C  ASN    60 A    7.000    0.997
+   C  ASN    60 A    7.500    0.998
    C  ASN    60 A    8.000    1.000
-   C  ASN    60 A    8.500    1.000
-   C  ASN    60 A    9.000    1.000
-   C  ASN    60 A    9.500    1.000
-   C  ASN    60 A   10.000    1.000
-   C  ASN    60 A   10.500    1.000
-   C  ASN    60 A   11.000    1.000
-   C  ASN    60 A   11.500    1.000
-   C  ASN    60 A   12.000    1.000
-   C  ASN    60 A   12.500    1.000
-   C  ASN    60 A   13.000    1.000
-   C  ASN    60 A   13.500    1.000
-   C  ASN    60 A   14.000    1.000
-   C  ASN    60 A   14.500    1.000
-   C  ASN    60 A   15.000    1.000
-   C  ASN    60 A   15.500    1.000
-   C  ASN    60 A   16.000    1.000
-   C  ASN    60 A   16.500    1.000
-   C  ASN    60 A   17.000    1.000
-   C  ASN    60 A   17.500    1.000
-   C  ASN    60 A   18.000    1.000
+   C  ASN    60 A    8.500    0.997
+   C  ASN    60 A    9.000    0.988
+   C  ASN    60 A    9.500    0.951
+   C  ASN    60 A   10.000    0.930
+   C  ASN    60 A   10.500    0.783
+   C  ASN    60 A   11.000    0.582
+   C  ASN    60 A   11.500    0.311
+   C  ASN    60 A   12.000    0.114
+   C  ASN    60 A   12.500    0.048
+   C  ASN    60 A   13.000    0.014
+   C  ASN    60 A   13.500    0.004
+   C  ASN    60 A   14.000    0.001
+   C  ASN    60 A   14.500    0.000
+   C  ASN    60 A   15.000    0.000
+   C  ASN    60 A   15.500    0.000
+   C  ASN    60 A   16.000    0.000
+   C  ASN    60 A   16.500    0.000
+   C  ASN    60 A   17.000    0.000
+   C  ASN    60 A   17.500    0.000
+   C  ASN    60 A   18.000    0.000
