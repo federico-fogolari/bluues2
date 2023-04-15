@@ -1610,6 +1610,8 @@ for(i=0; i< (*atom_grid).grid_size; i++)
     free((*atom_grid).atom_node[i]);
 free((*atom_grid).atom_node); 
 free((*atom_grid).n_atom_node); 
+(*atom_grid).max_atom_node = 0;
+(*atom_grid).grid_size = 0;	
 }
 
 void atom_grid_alloc(struct Atom_grid *atom_grid)
@@ -2347,8 +2349,8 @@ ir2[i] = pow(phi[i]/ir2[i], 1.0/2.0);
 if(ir3[i] > 0) 
 ir3[i] = pow(phi[i]/ir3[i], 1.0/3.0);
 //else ir3[i] = ir2[i] + dx;
-if(ir2[i] > ir1[i]) ir2[i] = ir1[i];
-if(ir3[i] > ir2[i]) ir3[i] = ir2[i];
+if(ir2[i] > ir1[i] && ir1[i] > 0.0) ir2[i] = ir1[i];
+if(ir3[i] > ir2[i] && ir2[i] > 0.0) ir3[i] = ir2[i];
 if(flag_par.msms)
 	gbr6 = gbr6_ses;
 	else
@@ -2465,12 +2467,12 @@ else {
      }
 if(ir2[i] > 0) 
 ir2[i] = pow(phi[i]/ir2[i], 1.0/2.0);
-else ir2[i] = ir1[i] + dx;
+//else ir2[i] = ir1[i] + dx;
 if(ir3[i] > 0) 
 ir3[i] = pow(phi[i]/ir3[i], 1.0/3.0);
-else ir3[i] = ir2[i] + dx;
-if(ir2[i] > ir1[i]) ir2[i] = ir1[i];
-if(ir3[i] > ir2[i]) ir3[i] = ir2[i];
+//else ir3[i] = ir2[i] + dx;
+if(ir2[i] > ir1[i] && ir1[i] > 0.0) ir2[i] = ir1[i];
+if(ir3[i] > ir2[i] && ir2[i] > 0.0) ir3[i] = ir2[i];
 //if(sys.n_atoms > RAVE_N_ATOMS)
 //{
 //if(ir3[i] < rave)
