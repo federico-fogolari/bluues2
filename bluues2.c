@@ -1804,6 +1804,12 @@ int main(int argc, char *argv[]) {
         init_flag_par(&flag_par);      
         /* Read options from command line */
         check_cmd_line(argc, argv, &flag_par);      
+	if(flag_par.pka)
+	{
+		printf("pka calculation selected. Resetting SASA area per point to msms area per point\n");
+		printf("this is due to the way pka is calculated....\n");
+                flag_par.sasa_area = flag_par.msms_area;
+	}
         /* Print information on options and parameters */
         print_info_flag_par(flag_par);      
 
